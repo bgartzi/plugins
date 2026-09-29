@@ -4,8 +4,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/iholder101/kubevirt-plugins/pkg/sdk/plugin"
-	"github.com/iholder101/kubevirt-plugins/tests/framework"
+	"github.com/bgartzi/plugins/pkg/sdk/plugin"
+	"github.com/bgartzi/plugins/tests/framework"
 )
 
 var _ = Describe("Multi-Entrypoint Plugin", func() {
